@@ -7,7 +7,14 @@
 </head>
 <body>
     <header>Welcome to our wonderful restaurant! Your adventure in Vietnamese cuisine has just begun! We are confident that our menu will offer you delightful tastes, be it your first time or 100th time visting us. Don't hestitate to ask our friendly staff for recommendations. We want to make sure you have the best dining experience!</header>
-    <br>
+    <nav>
+        <a href=#appetizer>Appetizer</a>
+        <a href=#entree>Entree</a>
+        <a href=#family>Family Dinner</a>
+        <a href=#dessert>Dessert</a>
+        <a href=#drink>Drink</a>
+    </nav>
+    <hr>
     <section id="appetizer">Appetizer</section>
     <p>Wet your appetite with some combination of salads and refreshing "goi", or savory sides.</p>
     <table>
@@ -17,49 +24,281 @@
             <th scope="col">Price</th>
         </tr>
         <tr>
-            <td>Lotus goi</td>
+            <td>Goi ngo sen</td>
             <td>Lotus root salad, tossed with fish sauce vinaigrette. Served with beef jerky, shrimp, or pork</td>
             <td>$20.00</td>
         </tr>
         <tr>
-            <td>Watercress salad</td>
+            <td>Xa lach</td>
             <td>Fresh watercress tossed in vinaigrette and sprinkled with tiny cubes of fried eggs</td>
             <td>$10.00</td>
         </tr>
         <tr>
-            <td>Vietnamese Crepe</td>
+            <td>Banh xeo</td>
             <td>Crispy crepe with bean sprout and prawn fillings, served with delicious fish sauce</td>
-            <td>$20.00</td>
+            <td>$15.00</td>
+        </tr>
+        <tr>
+            <td>Cha gio</td>
+            <td>Crispy spring rolls with pork, mung beans, glass noodle, and mushroom filling, served with delicious fish sauce</td>
+            <td>$12.00</td>
         </tr>
     </table>
     <br>
+    <!-- Sample pictures of appetizers-->
     <table>
         <tr>
             <td><img src="images/lotus_goi.jpg" alt="Prawns on lotus salad" height=130></td>
             <td><img src="images/watercress_salad.jpg" alt="Watercress salad" height=130></td>
             <td><img src="images/vietnamese_crepe.jpg" alt="Vietnamese crepe" height=130></td>
+            <td><img src="images/chagio.jpeg" alt="Vietnamese spring rolls" height="130"></td>
         </tr>
         <tr>
-            <td>Lotus goi</td>
-            <td>Watercress salad</td>
-            <td>Vietnamese crepe</td>
+            <td>Goi ngo sen</td>
+            <td>Xa lach</td>
+            <td>Banh xeo</td>
+            <td>Cha gio</td>
+        </tr>
+    </table>
+    <hr>
+
+    
+    <section id="entree">Entree</section>
+    <p>Time to dive into the main course. We serve a variety of speciaties from Ha Giang to Ca Mau, covering all regions from north to south. </p>
+
+    <table>
+        <tr>
+            <th scope="col">Dish</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+        </tr>
+        <tr>
+            <td>Com suon nuong</td>
+            <td>Pork chop served with fine broken rice, served with side salad and delicate fish sauce, a specialy from the south</td>
+            <td>$25.00</td>
+        </tr>
+        <tr>
+            <td>Bun Cha Ha Noi</td>
+            <td>Rice vermicelli served with grilled nem, a flavorful pork skewer, a specialty from the north</td>
+            <td>$25.00</td>
+        </tr>
+        <tr>
+            <td>Bun bo Hue</td>
+            <td>Beef noodles in hearty soup base, a must-have from Hue, a beautiful coastal city in the central</td>
+            <td>$20.00</td>
+        </tr>
+    </table>
+
+    <!-- Sample pictures of entrees-->
+    <table>
+        <tr>
+            <td><img src="images/com_suon_nuong.jpg" alt="Grilled pork chop on rice" height=130></td>
+            <td><img src="images/bun_cha_ha_noi.jpg" alt="Pork skewers on Vietnamese vermicelli" height=130></td>
+            <td><img src="images/Bun-Bo-Hue.jpg" alt="Beef noodle in soup base" height=130></td>
+        </tr>
+        <tr>
+            <td>Com suon nuong</td>
+            <td>Bun cha Ha Noi</td>
+            <td>Bun bo Hue</td>
+        </tr>
+    </table>
+    <hr>
+
+
+
+    <section id="family">Family Style</section>
+    <p>Family is at the heart of Vietnamese culture. We have dedicated these family-styled dinner options for parties of 4 or more. All dishes are served with jasmine white rice. We recommend pairing the soups with the dishes, but you are welcome to switch to your choice.</p>
+    <table>
+        <tr>
+            <th scope="col">Option</th>
+            <th scope="col">Dish</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+        </tr>
+        <tr>
+            <td rowspan=5>1</td>
+            <td>Thit heo kho to</td>
+            <td>Pork stew, slow cooked in clay pot</td>
+            <td rowspan=4>$100</td>
+        </tr>
+        <tr>
+            <td>Nam rom chung trung</td>
+            <td>Plump straw mushooms steamed with eggs</td>
+        </tr>
+        <tr>
+            <td>Dau bap xao toi</td>
+            <td>Sauteed garlic okra</td>
+        </tr>
+        <tr>
+            <td>Ca chim chien vang</td>
+            <td>Crispy fried butterfish</td>
+        </tr>
+        <tr>
+            <td>Canh chua ca loc</td>
+            <td>Sweet and sour snakehead fish soup</td>
+        </tr>
+    </table>
+
+    <!-- Sample pictures of family style dinner option 1-->
+    <table>
+        <tr>
+            <td><img src="images/thit_heo_kho_to.jpg" alt="Vietnamese pork stew" height=130></td>
+            <td><img src="images/nam_rom_trung.jpg" alt="Mushroom in steamed egg" height=130></td>
+            <td><img src="images/dau_bap_xao_toi.jpg" alt="Sauteed garlic okra" height=130></td>
+            <td><img src="images/CA-CHIM-CHIEN-DON.jpg" alt="Fried butterfish" height="130"></td>
+            <td><img src="images/canh-chua-ca-loc.jpg" alt="Sweet and sour fish soup" height="130"></td>
+        </tr>
+        <tr>
+            <td>Thit heo kho to</td>
+            <td>Nam rom chung trung</td>
+            <td>Dau bap xao toi</td>
+            <td>Ca chim chien vang</td>
+            <td>Canh chua ca loc</td>
+        </tr>
+    </table>
+    
+    <br>
+    <table>
+        <tr>
+            <th scope="col">Option</th>
+            <th scope="col">Dish</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+        </tr>
+        <tr>
+            <td rowspan=5>2</td>
+            <td>Thit heo kho tau</td>
+            <td>Chinese style pork stew</td>
+            <td rowspan=4>$100</td>
+        </tr>
+        <tr>
+            <td>Bo luc lac</td>
+            <td>Shaking beef</td>
+        </tr>
+        <tr>
+            <td>Ca tim xao toi</td>
+            <td>Sauteed garlic eggplant</td>
+        </tr>
+        <tr>
+            <td>Dau hu sot ca chua</td>
+            <td>Fried tofu in tomato sauce</td>
+        </tr>
+        <tr>
+            <td>Canh kho qua nhoi thit</td>
+            <td>Stuffed bitter melon soup</td>
+        </tr>
+    </table>
+    <!-- Sample pictures of family style dinner option 2-->
+    <table>
+        <tr>
+            <td><img src="images/thit_kho_tau.jpg" alt="Chinese-style Pork stew" height=130></td>
+            <td><img src="images/bo_luc_lac.jpg" alt="Vietnamese shaking beef" height=130></td>
+            <td><img src="images/ca_tim_xao_toi.jpg" alt="Sauteed garlic eggplant" height=130></td>
+            <td><img src="images/dau-hu-sot-ca-chua.jpg" alt="Fried tofu in tomato sauce" height="130"></td>
+            <td><img src="images/canh-kho-qua.jpg" alt="Bittermelon soup" height="130"></td>
+        </tr>
+        <tr>
+            <td>Thit heo kho tau</td>
+            <td>Bo luc lac</td>
+            <td>Ca tim xao toi</td>
+            <td>Dau hu sot ca chua</td>
+            <td>Canh kho qua nhoi thit</td>
         </tr>
     </table>
 
 
-    <br>
-    <section id="entree">Entree</section>
-    <p>Time to dive into the main course. We serve a variety of speciaties from Ha Giang to Ca Mau, covering all regions from north to south. </p>
-
-    <section id="family">Family Styles</section>
-
-
+    <hr>
     <section id="dessert">Dessert</section>
+    <table>
+        <tr>
+            <th scope="col">Dish</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <!-- Sample pictures of desserts-->
+    <table>
+        <tr>
+            <td><img src="" alt="" height=130></td>
+            <td><img src="" alt="" height=130></td>
+            <td><img src="" alt="" height=130></td>
+            <td><img src="" alt="" height="130"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
 
+    <section id="drink">Drink</section>
+    
+    <table>
+        <tr>
+            <th scope="col">Dish</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 
-
-    <footer id="drink">Drink</footer>
-
+    <!-- Sample pictures of drinks-->
+    <table>
+        <tr>
+            <td><img src="" alt="" height=130></td>
+            <td><img src="" alt="" height=130></td>
+            <td><img src="" alt="" height=130></td>
+            <td><img src="" alt="" height="130"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 
 </body>
 </html>
